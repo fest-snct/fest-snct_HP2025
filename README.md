@@ -11,7 +11,7 @@
 # Commit Rule
 commitは以下のルールに従ってやってみましょう(不便だったら辞める)
 ```bash
-タイプ: 変更内容 (#関連するIssue番号)
+タイプ: 変更内容 (close #関連するIssue番号)
 ```    
 | タイプ     | 説明                                   
 |------------|--------------------------------------|
@@ -23,9 +23,9 @@ commitは以下のルールに従ってやってみましょう(不便だった�
 
 ### 例
 ```bash
-git commit -m "fix: ページ遷移できない問題を解決 (#hoge)"
+git commit -m "fix: ページ遷移できない問題を解決 (close #hoge)"
 git commit -m "edit: 画像を張り替え"
-git commit -m "feat: お問い合わせページを作成"
+git commit -m "feat: お問い合わせページを作成 (close #hoge)"
 git commit -m "ref: デバッグを削除"
 git commit -m "docs: READMEを更新"
 ```
